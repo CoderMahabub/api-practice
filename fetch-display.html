@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch & Display</title>
+    <style>
+        .comment-container {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .comment {
+            border: 2px solid red;
+            padding: 10px;
+            margin: 10px;
+            background-color: aquamarine;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Fetch & Display Data on HTML</h1>
+    <section id="display-container"></section>
+    <button onclick="loadComments()">Add Comments</button>
+
+
+
+    <script src="js/fetch-display.js"></script>
+</body>
+
+</html>
